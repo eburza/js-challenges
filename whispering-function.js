@@ -18,7 +18,7 @@ console.log(whisper("MA'AM, this is a Wendy's!"));
 
 function whisper(str) {
     if (str.endsWith('!')) {
-        return str.substring(0, str.length-1).toLowerCase()
+        return `shh... ${str.substring(0, str.length-1).toLowerCase()}`
     }
-    return str.toLowerCase()
+    return `shh... ${str.toLowerCase()}`
 }
